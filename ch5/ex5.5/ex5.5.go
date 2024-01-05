@@ -16,5 +16,6 @@ func main() {
 
 	fmt.Println("------------")
 
-	fmt.Printf("%%p(메모리 주소값) %p", v2)
+	var v3 = 123
+	fmt.Printf("%%p(메모리 주소값) %p", &v3)
 }
